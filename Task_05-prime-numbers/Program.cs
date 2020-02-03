@@ -22,7 +22,7 @@ public class Program
             if (IsSimple(i))
             {
                 simpleArr.Add(i);
-                //Console.WriteLine(i.ToString());
+                Console.WriteLine(i.ToString());
             }
         }
         return simpleArr.ToArray();
